@@ -269,7 +269,7 @@ def frame2():
 
 def frame3():
     #congradulations widget
-    message = QLabel("Congradulations! You\nare a true programmer!\n your score is:")
+    message = QLabel("Congradulations!\n your score is:")
     message.setAlignment(QtCore.Qt.AlignRight)
     message.setStyleSheet(
         "font-family: 'Shanti'; font-size: 25px; color: 'white'; margin: 100px 0px;"
